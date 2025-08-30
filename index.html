@@ -890,10 +890,26 @@
                         <div class="software-carousel-slide">
                           <div class="software-card">
                             
-                            <video class="software-video" autoplay loop muted playsinline>
-                              <source src="videos/app_video.mp4" type="video/mp4">
-                              Seu navegador não suporta a tag de vídeo.
-                            </video>
+                            <div class="software-media" aria-label="Mídia do software">
+                                
+                                <div class="media-gallery" role="region">
+                                    <img src="registro.png" alt="Registro do aplicativo" class="large-thumb">
+                                </div>
+
+                                <div class="media-video" role="region" aria-label="Vídeo do software">
+                                    <video autoplay loop muted playsinline preload="auto" controls style="width: 100%; max-width: 400px; height: auto;">
+                                        <source src="videos/app_video.mp4" type="video/mp4">
+                                        Seu navegador não suporta a tag de vídeo.
+                                    </video>
+                                </div>
+
+                                <div class="media-gallery" role="region">
+                                    <img src="insp1.jpg" style="max-height: 200px; height: auto; border-radius: 10px;">
+                                    <img src="insp2.jpg" style="max-height: 200px; height: auto; border-radius: 10px;">
+                                    <img src="insp3.jpg" style="max-height: 100px; height: auto; border-radius: 10px;">
+                                </div>
+                            
+                            </div>
 
 
                             <div class="software-content">
